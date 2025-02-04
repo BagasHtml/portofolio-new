@@ -3,78 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Login</title>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="new.css">
-    <link rel="icon" href="logo web.png">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div class="container">
-       <div class="form-box login">
-        <form action="">
-            <h1>Login</h1>
-            <div class="input-box">
-                <input type="text" placeholder="Username" required>
-                <i class='bx bx-user'></i>
-            </div>
-            <div class="input-box">
-                <input type="password" placeholder="Password" required>
-                <i class='bx bxs-lock-alt'></i>
-            </div>
-            <div class="forgot-link">
-                <a href="#">Forgot Password?</a>
-            </div>
-            <button type="submit" class="btn">Login</button>
-            <p>or login with social platforms</p>
-            <div class="social-icons">
-                <a href="https://www.google.com"><i class='bx bxl-google'></i></a>
-                <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
-                <a href="https://www.github.com"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com"><i class='bx bxl-linkedin'></i></a>
-            </div>
-        </form>
-       </div>
 
-       <div class="form-box register">
-        <form action="">
-            <h1>Registration</h1>
-            <div class="input-box">
-                <input type="text" placeholder="Username" required>
-                <i class='bx bxs-user'></i>
+    <header>
+        <nav>
+            <div class="logo">
+                <marquee behavior="" direction=""><font color="yellow">SELAMAT DATANG DI PORTOFOLIO SAYA!</marquee></font>
+                <ul class="nav-links">
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#portfolio">Kemampuan</a></li>
+                    <li><a href="#education">Pendidikan</a></li>
+                    <li><a href="#contact">Media Sosial</a></li>
+                </ul>
             </div>
-            <div class="input-box">
-                <input type="email" placeholder="Email" required>
-                <i class='bx bxs-envelope'></i>
+        </nav>
+    </header>
+
+    <!-- Tentang Saya -->
+    <section id="about">
+        <div class="container">
+            <h2>Tentang saya</h2>
+            <b><i>Saya saya adalah Pelajar dari SMK Taruna Bangsa Bekasi.</b></i>
+            <br>
+            <b><i>Belajar dan mengembangkan skill dimanapun dan kapanpun saya mau.</b></i>
+            <br>
+            <br>
+            <b><i>"Jangan pernah mengeluh soal menuntut ilmu, karena banyak orang di luar sana ingin
+                menuntut ilmu (Belajar)."
+            </i></b>
+            <br>
+            <b><i>-Bagas Tresna-</i></b>
+        </div>
+    </section>
+
+    <!-- Riwayat Pendidikan -->
+    <section id="education">
+        <div class="container">
+            <h2>Riwayat Pendidikan</h2>
+            <div class="education-container">
+                <a href="https://www.google.com/maps?q=SMKS+Taruna+Bangsa+Babelan" target="_blank" class="education-item">
+                    <img src="taruna.jpg" alt="Logo SMK" class="school-logo">
+                    <h3>SMKS Taruna Bangsa</h3>
+                    <p>Program Keahlian: Rekayasa Perangkat Lunak (RPL)</p>
+                    <p>Tahun Masuk: 2024</p>
+                    <p>Tahun Lulus: ?</p>
+                </a>
+                <a href="https://www.google.com/maps?q=MIT+ATTAQWA+01+Babelan" target="_blank" class="education-item">
+                    <img src="attaqwa.jpg" alt="Logo MTs" class="school-logo">
+                    <h3>MIT ATTAQWA 01</h3>
+                    <p>Tahun Masuk: 2015</p>
+                    <p>Tahun Lulus: 2021</p>
+                </a>
+                <a href="https://www.google.com/maps?q=MTS+ATTAQWA+03+Babelan" target="_blank" class="education-item">
+                    <img src="attaqwa.jpg" alt="Logo MI" class="school-logo">
+                    <h3>MTS ATTAQWA 03 BABELAN</h3>
+                    <p>Tahun Masuk: 2021</p>
+                    <p>Tahun Lulus: 2024</p>
+                </a>
             </div>
-            <div class="input-box">
-                <input type="password" placeholder="Password" required>
-                <i class='bx bxs-lock'></i>
-            </div>
-            <button type="submit" class="btn">Register</button>
-            <p>or register with social platforms</p>
-            <div class="social-icons">
-                <a href="https://www.google.com"><i class='bx bxl-google'></i></a>
-                <a href="https://www.facebook.com"><i class='bx bxl-facebook'></i></a>
-                <a href="https://www.github.com"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com"><i class='bx bxl-linkedin'></i></a>
-            </div>
-        </form>
-       </div>
-       <div class="toggle-box">
-            <div class="toggle-panel toggle-left">
-                <h1>Hello, Wealcome!</h1>
-                <p>Don't have an account?</p>
-                <button class="btn register-btn">Register</button>
-            </div>
-            <div class="toggle-panel toggle-right">
-                <h1>Wealcome Back!</h1>
-                <p>Already have an account?</p>
-                <button class="btn login-btn">Login</button>
-            </div>
-       </div>
-    </div>
+        </div>
+    </section>
     
-    <script src="new.js"></script>
+
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Kemampuan yang Saya Miliki</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <h3>Komputer Engginer</h3>
+                    <b>Saya mengikuti sebuah organisasi kejuruan dan saya mengambil divisi tersebut, karena coding saja tidak cukup.</b>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Wirausaha</h3>
+                    <b>Saya selalu berusaha untuk mengembangkan suatu bisnis tersendiri agar suatu saat nanti saya bisa membuka banyak lapangan pekerjaan.</b>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Public Speaking</h3>
+                    <b>Saya memiliki Skill Public Speaking karena waktu SMP saya pernah mengikuti OSIS, jadi mungkin itu bisa menjadi nilai Plus untuk saya.</b>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact">
+        <div class="container">
+            <h2>MEDIA SOSIAL</h2>
+            <div class="social-links">
+                <a href="https://instagram.com/bagas_tresnaa_" target="_blank">
+                    <i class="bx bxl-instagram"></i> Instagram
+                </a>
+                <a href="https://www.youtube.com/channel/UCpKUgzKVZC4qBSVMsN55EPQ" target="_blank">
+                    <i class="bx bxl-youtube"></i> YouTube
+                </a>
+                <a href="https://www.tiktok.com/@bagasmatane" target="_blank">
+                    <i class="bx bxl-whatsapp"></i> TikTok
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Bagas Tresna Nanda M.S</p>
+    </footer>
+
+    <script src="script 3.js"></script>
 </body>
 </html>
